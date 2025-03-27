@@ -1,7 +1,7 @@
 {
     "black": {
         "pawn": [
-            "A7",
+            "is_dead_1",
             "B7",
             "C7",
             "D7",
@@ -23,7 +23,7 @@
             "F8"
         ],
         "king": ["D8"],
-        "queen": ["E8"]
+        "queen": ["is_dead_3"]
     },
     "white":{
         "pawn": [

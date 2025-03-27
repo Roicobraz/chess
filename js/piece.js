@@ -155,7 +155,7 @@ export default class piece {
         div.id = id;
         div.classList.add(name);
         div.classList.add(team);
-        div.innerText = team + ' ' + name;
+        div.innerText = name;
         dead.append(div); 
 
         e.target.removeEventListener('click', this.dead);
