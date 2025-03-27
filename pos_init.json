@@ -1,0 +1,54 @@
+{
+    "black":{
+        "pawn": [
+            pawn("A7", "black"),
+            pawn("B7", "black"),
+            pawn("C7", "black"),
+            pawn("D7", "black"),
+            pawn("E7", "black"),
+            pawn("F7", "black"),
+            pawn("G7", "black"),
+            pawn("H7", "black") 
+        ],
+        "rook": [
+            rook("A8", "black"),
+            rook("H8", "black")
+        ],
+        "knight": [
+            knight("B8", "black"),
+            knight("G8", "black")
+        ],
+        "bishop": [
+            bishop("C8", "black"),
+            bishop("F8", "black")
+        ],
+        "king": king("D8", "black"),
+        "queen": queen("E8", "black"),
+    },
+    "white":{
+        "pawn": [
+            pawn("A2", "white"),
+            pawn("B2", "white"),
+            pawn("C2", "white"),
+            pawn("D2", "white"),
+            pawn("E2", "white"),
+            pawn("F2", "white"),
+            pawn("G2", "white"),
+            pawn("H2", "white") 
+        ],
+        "rook": [
+            rook("A1", "white"),
+            rook("H1", "white")
+        ],
+        "knight": [
+            knight("B1", "white"),
+            knight("G1", "white")
+        ],
+        "bishop": [
+            bishop("C1", "white"),
+            bishop("F1", "white")
+        ],
+        "king": king("D1", "white"),
+        "queen": queen("E1", "white")
+    }
+}

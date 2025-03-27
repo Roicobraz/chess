@@ -18,7 +18,7 @@
                 <?php
                     $chess = "";
                     for ($i="A"; $i <= "H"; $i++) { 
-                        $chess .= "<div class='ligne'>";
+                        $chess .= "<div class='col'>";
                         for ($j=8; $j > 0; $j--) { 
                             $chess .= "<div id='{$i}{$j}'></div>";
                         }
@@ -27,6 +27,8 @@
                     echo($chess);
                 ?>
             </div>
+            <div id='white_eaten'></div>
+            <div id='black_eaten'></div>
     </main>
     <footer>
         <script type="module" src="js/chess.js"></script>
