@@ -26,15 +26,19 @@
         "queen": ["E8"]
     },
     "white":{
-        "queen": ["E1"],
-        "king": ["D1"],
+        "rook": [
+            "A1",
+            "H1"
+        ],
+        "knight": [
+            "B1",
+            "G1"
+        ],
         "bishop": [
             "C1",
             "F1"
         ],
-        "rook": [
-            "A1",
-            "H1"
-        ]
+        "king": ["D1"],
+        "queen": ["E1"]
     }
 }

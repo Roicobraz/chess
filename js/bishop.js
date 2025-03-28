@@ -41,7 +41,7 @@ export default class bishop extends piece {
                             {
                                 if(document.getElementById(x+y).classList.contains(this.team))
                                 {
-                                    // break;
+                                    break;
                                 }
                                 else if(document.getElementById(x+y).classList.contains(this.ennemy))
                                 {

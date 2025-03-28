@@ -1,15 +1,12 @@
-// bug avec les potentielles déplacement
-
-// fini
-import rook from "./rook.js";
-import bishop from "./bishop.js";
-import queen from "./queen.js";
-import king from "./king.js";
-
 // il manque le changement de pièce après avoir été au bout du plateau
 import pawn from "./pawn.js";
-// à faire
+
+// bug avec les potentielles déplacement
+import rook from "./rook.js";
 import knight from "./knight.js";
+import bishop from "./bishop.js";
+import king from "./king.js";
+import queen from "./queen.js";
 
 window.white_turn = true;
 window.black_turn = false;
@@ -59,4 +56,4 @@ function position_dyna(json)
     .catch(error => console.error('Failed to fetch data:', error)); 
 }
 
-position_dyna('./sav1.json');
+position_dyna('./pos_init.json');
