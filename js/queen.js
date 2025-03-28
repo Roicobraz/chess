@@ -24,12 +24,12 @@ export default class queen extends piece {
             if(!is_selected)
             {
                 this.position.classList.add('piece_selected');
-                this.movement.forEach(jsp => {
-                    this.movement.forEach(jsp2 => {
+                this.movement.forEach(x_tmp => {
+                    this.movement.forEach(y_tmp => {
                         for (let j = 1; j <= 8; j++) 
                         {
-                            let move_y = jsp*j;
-                            let move_x = jsp2*j;
+                            let move_y = x_tmp*j;
+                            let move_x = y_tmp*j;
                                                 
                             // position x des déplacement possible
                             let x = String.fromCharCode(this.position.id[0].charCodeAt(0) + move_x);
