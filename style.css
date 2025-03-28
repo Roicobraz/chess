@@ -40,3 +40,32 @@
     text-align: center;
     align-content: center;
 }
+
+#background
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.48);
+    width: 100vw;
+    height: 100vh;
+}
+
+#background #modal
+{
+    width: 30%;
+    text-align: center;
+    padding: 5px;
+    background: white;
+    border-radius: 25px;
+}
+
+#background #modal ul
+{
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

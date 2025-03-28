@@ -1,4 +1,6 @@
 // fini
+
+// il manque le changement de pièce après avoir été au bout du plateau
 import pawn from "./pawn.js";
 // à faire
 import rook from "./rook.js";
@@ -55,4 +57,4 @@ function position_dyna(json)
     .catch(error => console.error('Failed to fetch data:', error)); 
 }
 
-position_dyna('./pos_init.json');
+position_dyna('./sav1.json');
