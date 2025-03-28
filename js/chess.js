@@ -1,13 +1,15 @@
+// bug avec les potentielles déplacement
+
 // fini
+import rook from "./rook.js";
+import bishop from "./bishop.js";
+import queen from "./queen.js";
+import king from "./king.js";
 
 // il manque le changement de pièce après avoir été au bout du plateau
 import pawn from "./pawn.js";
 // à faire
-import rook from "./rook.js";
 import knight from "./knight.js";
-import bishop from "./bishop.js";
-import king from "./king.js";
-import queen from "./queen.js";
 
 window.white_turn = true;
 window.black_turn = false;
