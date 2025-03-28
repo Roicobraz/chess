@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > V0.1.1 -
-> 27/03/2025 -
+> 28/03/2025 -
 > Roicobraz 
 
 Jeu d'échec en javascript.  
