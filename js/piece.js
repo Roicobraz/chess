@@ -147,7 +147,6 @@ export default class piece {
         is_attack.classList = '';
 
         // ajout au banc la pièce mangé
-        console.log(team);
         let dead = document.getElementById(team + '_eaten');
 
         let div = document.createElement("div");

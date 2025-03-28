@@ -62,7 +62,17 @@ export default class rook extends piece {
                         {
                             if(document.getElementById(x+y))
                             {
-                                if(!document.getElementById(x+y).classList.contains('black') && !document.getElementById(x+y).classList.contains('white'))
+                                if(document.getElementById(x+y).classList.contains(this.team))
+                                {
+                                    break;
+                                }
+                                else if(document.getElementById(x+y).classList.contains(this.ennemy))
+                                {
+                                    document.getElementById(x+y).classList.add('attack');
+                                    document.getElementById(x+y).addEventListener('click', this.move);
+                                    break;
+                                }
+                                else
                                 {
                                     // Ajout de la classe "selected" aux déplacement possible
                                     document.getElementById(x+y).classList.add("selected");
@@ -72,13 +82,6 @@ export default class rook extends piece {
                                     {
                                         movement_possible.addEventListener('click', this.move);
                                     }
-                                }
-                                else if(document.getElementById(x+y).classList.contains(this.ennemy))
-                                {
-            
-                                    document.getElementById(x+y).classList.add('attack');
-                                    document.getElementById(x+y).addEventListener('click', this.move);
-                                    break;
                                 }
                             }
                         }
