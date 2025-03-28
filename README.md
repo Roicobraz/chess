@@ -1,7 +1,7 @@
 # Chess
 
 > [!NOTE]
-> V0.1 -
+> V0.1.2 -
 > 27/03/2025 -
 > Roicobraz 
 
