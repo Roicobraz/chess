@@ -14,6 +14,12 @@
     </header>
     <main class="container">
         <div id="content">
+            <p>
+                à faire: <br>
+                établir les règles<br>
+                établir les conditions de victoires<br>
+                mettre en place les sauvergardes et chargement de sauvregardes
+            </p>
             <div class="chess">
                 <?php
                     $chess = "";

@@ -56,4 +56,4 @@ function position_dyna(json)
     .catch(error => console.error('Failed to fetch data:', error)); 
 }
 
-position_dyna('./pos_init.json');
+position_dyna('./sav1.json');

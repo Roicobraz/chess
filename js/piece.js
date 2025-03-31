@@ -91,7 +91,7 @@ export default class piece {
      * @param {object} e 
      */
     move = (e) => {
-        if(e.target.classList.contains('selected') || e.target.classList.contains('attack'))
+        if((e.target.classList.contains('selected') || e.target.classList.contains('attack')) && this.position.classList.contains('piece_selected'))
         {
             if(e.target.classList.contains('attack'))
             {
